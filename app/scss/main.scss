@@ -1,0 +1,33 @@
+
+$main-color:#0b8071;
+$bg-color: #f7f7f7;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap');
+@import "../fonts/averta/stylesheet.css";
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
+@import "variable.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "_swiper.scss";
+@import "_start_your_journey.scss";
+@import "_why_mursheed.scss";
+@import "_swiper_most_popular_drivers.scss";
+@import "_swiper_popular_attractions_locations.scss";
+@import "_swiper_our_offers_partners.scss";
+@import "_crated_for.scss";
+@import "_swiper_latest_tourists_reviews.scss";
+@import "_mursheed_app.scss";
+
+
+
+
+
+
+// body{
+//     font-family: 'Open Sans', sans-serif;
+// }
+
+
+
