@@ -1,9 +1,12 @@
 var swiper = new Swiper('#swiper_most_popular_drivers .swiper_most_popular_drivers_bottom .swiper-container', {
     slidesPerView: 4,
     spaceBetween: 10,
-    // slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
+    autoplay: {
+      delay: 3000,
+    },
+    speed: 3000,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,

@@ -107,7 +107,7 @@
                     }
                 }
                 .swiper-button-next{
-                    top: 60%;
+                    top: 50%;
                     &::after{
                         content: "";
                         background-image: url("../img/swiper_popular_attractions_locations/right.svg");
@@ -117,7 +117,7 @@
                     }
                 }
                 .swiper-button-prev{
-                    top: 60%;
+                    top: 50%;
                     &::after{
                         content: "";
                         background-image: url("../img/swiper_popular_attractions_locations/left.svg");
