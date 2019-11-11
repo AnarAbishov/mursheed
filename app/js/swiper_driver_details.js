@@ -1,4 +1,5 @@
 var swiper = new Swiper('#driver_details .swiper_driver_details_cars .swiper-container', {
+  
     slidesPerView: 4,
     spaceBetween: 10,
     loop: true,

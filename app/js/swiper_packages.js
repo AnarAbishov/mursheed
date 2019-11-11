@@ -12,8 +12,8 @@ var swiper = new Swiper('#driver_details .swiper_packages .swiper-container', {
       clickable: true,
     },
     navigation: {
-      nextEl: '.swiper-packages-button-next',
-      prevEl: '.swiper-packages-button-prev',
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
     breakpoints: {
       300: {
