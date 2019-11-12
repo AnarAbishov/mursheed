@@ -142,17 +142,14 @@ header{
     }
 }
 @media only screen and (max-width:992px){
-    header{
-        .country{
-            margin-left: 20px !important;
-        }
-        button{
-            min-width: 100px !important;
-            font-size: 13px !important;
-        }
-        a{
-            font-size: 15px !important;
-        }
+    .country{
+        margin-left: 20px !important;
     }
-    
+    button{
+        min-width: 100px !important;
+        font-size: 13px !important;
+    }
+    a{
+        font-size: 15px !important;
+    }
 }
