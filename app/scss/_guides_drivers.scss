@@ -41,7 +41,7 @@
                     padding: 20px 0 20px 0;
                     display: flex;
                     justify-content: space-between;
-                    width: 37%;
+                    // width: 37%;
                     align-items: center;
                     .profile_img{
                         img{
@@ -49,6 +49,7 @@
                         }
                     }
                     .profile_details{
+                        margin-left: 30px;
                         h4{
                             font-family: Averta;
                             font-size: 20px;

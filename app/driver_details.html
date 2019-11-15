@@ -39,11 +39,27 @@
                         <div class="currency-country">
                             <div class="currency">
                                 <span>Currency</span>
-                                <p>AZN</p>
+                                <!-- <p>AZN</p> -->
+                                <div class="custom-selectbox">
+                                    <select>
+                                        <option value="0">AZN</option>
+                                        <option value="1">Dollar</option>
+                                        <option value="2">Euro</option>
+                                        <option value="3">TL</option>
+                                        <option value="4">Rubl</option>
+                                    </select>
+                                </div>
                             </div>
                             <div class="country">
                                 <span>Country</span>
-                                <p>Azerbaijan</p>
+                                <div class="custom-selectbox">
+                                    <select>
+                                        <option value="0">Azerbaijan</option>
+                                        <option value="1">Turkey</option>
+                                        <option value="2">Germany</option>
+                                        <option value="3">France</option>
+                                    </select>
+                                </div>
                             </div>
 
                         </div>
@@ -60,9 +76,9 @@
             <div class="container">
                 <nav>
                     <ul>
-                        <li class="active"><a href="">Home</a></li>
+                        <li class="active"><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="">Guides & Drivers</a></li>
+                        <li><a href="guides_drivers.html">Guides & Drivers</a></li>
                         <li><a href="offers.html">Offers</a></li>
                     </ul>
                 </nav>
@@ -514,16 +530,26 @@
 
         });
         // $('#myModal').modal('toggle');
+        
+        
     </script>
-
+    
     <!-- <script src="./libs/jquery/dist/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     <script src="./libs/bootstrap/js/bootstrap.min.js"></script>
     <script src="./libs/swiper/package/js/swiper.min.js"></script>
     <script src="js/swiper_driver_details.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $('.carousel').carousel({
+            interval: 5000
+        })
+        });
+    </script>
     <script src="js/swiper_packages.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/selectbox.js"></script>
     <script src="js/script.js"></script>
 </body>
 
