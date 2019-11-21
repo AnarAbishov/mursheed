@@ -7,8 +7,19 @@ $(document).ready(function() {
 $(endDate).change(function() {
     let dateStart = new Date(startDate.value); 
     let dateEnd = new Date(endDate.value); 
+    
+   
+
     let Difference_In_Time = dateEnd.getTime() - dateStart.getTime(); 
     let betweenData = Difference_In_Time / (1000 * 3600 * 24); 
+    
+   
+    for (let index = 0; index < betweenData; index++) {
+        let DateItems = dateStart.setDate(new Date(dateStart).getDate() + 1)
+        let DateItemsNew = new Date(DateItems);
+        console.log(DateItemsNew)
+        
+    }
 
     let toDay = new Date().toLocaleDateString().substring(0,2);
 
