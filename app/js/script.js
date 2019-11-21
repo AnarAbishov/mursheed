@@ -1,6 +1,4 @@
-// $('.carousel').carousel({
-//     interval: 5000
-//   })
+
 
 var view = document.querySelector(".view")
 var view_confrim = document.querySelector(".view_confrim")
